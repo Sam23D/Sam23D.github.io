@@ -46,7 +46,7 @@ Typography
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
  
-h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
+h1 { font-size: 2em;  color: #353535; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; }
 h4 { font-size: 1em; margin: 1.33em 0; }
@@ -81,7 +81,7 @@ Lists
 ========================================================================== */
 /* * Addresses margins set differently in IE 6/7. */
  
-dl, menu, ol, ul { margin: 1em 0; }
+dl, menu, ol, ul { margin: 0 0; }
 dd { margin: 0 0 0 40px; }
 /* * Addresses paddings set differently in IE 6/7. */
 menu, ol, ul { padding: 0 0 0 40px; }
@@ -212,8 +212,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 75px 0 75px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 12px }
+.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 75px 0 75px 0; height: 100%; }
+.hero h1 { font-size: 30px }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 0 0 0; font-weight: bold; }
@@ -324,15 +324,57 @@ Waypoints
 .wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
 
 
-
-
-
+img {
+    margin: auto;
+}
 /* ADDED BY ME */
+.home{
+    height: 100%;
+}
+.logo-tec{
+    
+}
 
-.half-height{
-    height: 50%;
+.logo-cimav .logo-uach{
+    
+}
+
+#logos{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+#logos-left{
+    left: 0px;
+}
+#logos-right{
+    right: 0px;
+}
+#float-menu{
+    position: absolute;
+    color: white;
+    height: 50px;
+    background-color: rgba( 255,255,255,.7 );
+    width: 100%;
+    margin: 0px;
+    padding: .5em;
+}
+#float-menu li{
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0em 1em;
+    text-align: center;
+    color: black;
+    display: inline;
+}
+
+
+.float-menu-icon{
+    padding: 0px;
 
 }
+
 .bottom-dotted{
     border-bottom: black 1px dotted;
 }
@@ -342,4 +384,13 @@ Waypoints
 .grid{
     height: 100%;
 }
+
+.block-menu{
+    padding: 2em;
+
+}
+.block-menu h3{
+    font-weight: bold;
+}
+
 
