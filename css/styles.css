@@ -302,7 +302,7 @@ Contact
 Footer
 ========================================================================== */
 footer a { color: #a1a9b0; }
-footer { background-color: #242830; padding: 0px 0 30px; height: 100px }
+footer { background-color: #242830; padding: 0px 0 30px; height: 130px }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
@@ -351,13 +351,14 @@ img {
     right: 0px;
 }
 #float-menu{
-    position: absolute;
+    position: fixed;
     color: white;
     height: 50px;
     background-color: rgba( 255,255,255,.7 );
     width: 100%;
     margin: 0px;
     padding: .5em;
+    z-index: 1;
 }
 #float-menu li{
     font-weight: bold;
