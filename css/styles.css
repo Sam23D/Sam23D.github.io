@@ -515,3 +515,21 @@ img {
     font-weight: bold;
     font-size: 12px;
 }
+.attribuitor{
+    height: 150px;
+}
+.attribuitor-name{
+    color: black;
+    font-size: 20px;
+}
+.attribuitor-desc{
+    font-size: 15px;
+    padding: 0px 3em;
+}
+.attribuitot-desc a{
+    display: inline-block;
+    border-bottom: 2px dashed rgba(0,0,0,0.9);
+    /* Font styles */
+    text-decoration: none;
+    color: #777
+}
