@@ -395,9 +395,12 @@ img {
 }
 
 /************************* TEAM STYLES ****************************/
+.team-background{
+    background-image: url('../img/portraits/eqipomediocuerpo.jpg' )
+}
 #team-tittle{
     font-size: 70px;
-    margin-top: 90px;
+    margin-top: 400px;
 }
 #team-qoute{
     font-size: 25px;
@@ -408,7 +411,7 @@ img {
 #team-menu{
     position: absolute;
     right: 0px;
-    bottom: 100px;
+    top: -150px;
     
 }
 
@@ -420,7 +423,7 @@ img {
 }
 
 #team-menu li a{
-    color: #666;
+    color: #333;
 }
 #team-menu li a:hover{
     color: white;
@@ -494,4 +497,21 @@ img {
 .member-inner{
     padding: 0px;
     
+}
+.instructor-name{
+    color: black;
+        
+}
+.instructor-spec{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.advisor-name{
+    color: black;
+    font-size: 20px;
+}
+.advisor-spec{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 12px;
 }
