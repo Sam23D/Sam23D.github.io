@@ -398,11 +398,11 @@ img {
 .team-background{
     background-image: url('../img/portraits/eqipomediocuerpo.jpg' )
 }
-#team-tittle{
+#team-title{
     font-size: 70px;
     margin-top: 400px;
 }
-#team-qoute{
+#team-quote{
     font-size: 25px;
 }
 #team-menu-container{
@@ -532,4 +532,80 @@ img {
     /* Font styles */
     text-decoration: none;
     color: #777
+}
+.safety-background{
+    background-image: url('../img/fondosafety.JPG' )
+}
+#safety-title{
+    margin-top: 25px;
+    font-size: 70px;
+    
+}
+#safety-quote{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 120px;
+}
+#safety-menu{
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    
+}
+
+#safety-menu li{
+    font-size: 25px;
+    list-style-type: none;
+    text-align: right;
+    font-weight: bold;  
+}
+
+#safety-menu li a{
+    color: #333;
+}
+#safety-menu li a:hover{
+    color: white;
+}
+.training-courses-left h1{
+    font-size: 25px;
+    text-align: left
+}
+.training-courses-lef p{
+    text-align: left;
+}
+.training-courses-right h1{
+    font-size: 25px;
+    text-align: right
+}
+.training-courses-right p{
+    text-align: right;
+}
+.training-links h1{
+    font-size: 25px;
+}
+.training-links a{
+    color: #679390
+}
+.training-links a:hover{
+    color: #3dc9b3
+}
+.lab-safety-desc a{
+    color: #679390
+}
+.lab-safety-desc a:hover{
+    color: #3dc9b3
+}
+#safety-forms{
+    padding: 0px;
+}
+#safety-forms::after{
+    content: " "
+    ; border: solid 2px #3dc9b3
+    ; display: block
+    ; width: 35px
+    ; margin: 25px auto;
+}
+#safety-forms li{
+    font-size: 18px;
+    list-style-type: none;
 }
