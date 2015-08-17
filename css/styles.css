@@ -221,8 +221,11 @@ Hero
 /* ==========================================================================
 Intro
 ========================================================================== */
-.intro { background: #f3f5f8;  }
+.intro { background: #f3f5f8;  height: 100% }
 .intro p { margin: 0 0; }
+.clear-intro{
+    height: inherit;
+}
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
 Features
@@ -532,6 +535,9 @@ img {
     /* Font styles */
     text-decoration: none;
     color: #777
+}
+.clear-attribuitors{
+    clear: right;
 }
 /* SAFETY */
 .safety-background{
