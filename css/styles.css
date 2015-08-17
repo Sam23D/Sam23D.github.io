@@ -221,7 +221,7 @@ Hero
 /* ==========================================================================
 Intro
 ========================================================================== */
-.intro { background: #f3f5f8; height: 100% }
+.intro { background: #f3f5f8;  }
 .intro p { margin: 0 0; }
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
@@ -533,6 +533,7 @@ img {
     text-decoration: none;
     color: #777
 }
+/* SAFETY */
 .safety-background{
     background-image: url('../img/fondosafety.JPG' )
 }
@@ -636,6 +637,24 @@ img {
     width: 24px;
     margin: 0 1em;
 } 
+/* ORGANISMS */
+.organisms-organism{
+    text-align: justify;
+    padding: 0 8em ;
+}
+.metabolits{
+    list-style: none;
+    font-size: 16px;
+    color: #679390;
+    
+}
+.chemical{
+    background-image: url('/img/chemical.png');
+    background-repeat: no-repeat;
+}
+.reference{
+    padding: 3 10em;
+}
 /* JOURNAL */
 .journal-background{
      background-image: url('../img/notebook.JPG' )
