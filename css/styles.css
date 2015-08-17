@@ -609,3 +609,75 @@ img {
     font-size: 18px;
     list-style-type: none;
 }
+/* PROTOCOLS */
+.protocol-left ul{
+    text-align: right;
+}
+.protocol-left ul li{
+    list-style: none;
+    padding-right: 3em;
+    margin: .5em 0;
+}
+.protocol-left ul li img{
+    height: 24px;
+    width: 24px;
+    margin: 0 1em;
+}
+.protocol-right ul{
+    text-align: left;
+}
+.protocol-right ul li{
+    list-style: none;
+    padding-right: 3em;
+    margin: .5em 0;
+}
+.protocol-right ul li img{
+    height: 24px;
+    width: 24px;
+    margin: 0 1em;
+} 
+/* JOURNAL */
+.journal-background{
+     background-image: url('../img/notebook.JPG' )
+}
+.quote-date{
+    color: #679390;
+    font-size: 18px;
+}
+.quote-date b{
+    color: #B1DF1A;
+    font-size: 22px;
+}
+.in-quote{
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.35);
+    border-radius: 5px;
+}
+.in-quote img{
+    width: 100%;
+    margin-bottom: 1em;
+    box-shadow: inset 0 0 7px 4px rgba(255,255,255,.5)
+}
+.journal-left{
+    margin-top: 5px; 
+    right: -1px;
+    border-right: dashed 2px #679390;
+    text-align: right;
+}
+.journal-left h3{
+    
+    margin: 2px;
+    
+}
+.journal-right{
+    margin-top: 5px; 
+    left: -1px;
+    border-left: dashed 2px #679390;
+    text-align: left;
+}
+.journal-right h3{
+    
+    margin: 2px;
+}
+
+
+
