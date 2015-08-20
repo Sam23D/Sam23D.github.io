@@ -518,6 +518,9 @@ img {
     font-weight: bold;
     font-size: 12px;
 }
+.attribuitors{
+    height: auto;
+}
 .attribuitor{
     height: 150px;
 }
@@ -708,7 +711,7 @@ img {
     margin: 2px;
 }
 #notebook-title{
-    margin-top: 75px;
+    margin-top: 90px;
     font-size: 70px;
     
 }
