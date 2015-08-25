@@ -742,6 +742,26 @@ img {
     height: 20px;
     line-height: 15px;
 }
+/* Project */
+.project-background{
+    background-image: url('/img/fondoproject.jpg')
+}
 
+/* Parts */
+.parts-background{
+    background-image: url('/img/fondoparts.jpg')
+}
+/* Modelin */
+.modeling-background{
+    background-image: url('/img/fondomodeling.jpg')
+}
+/* HumanPractices */
+.hpracticces-background{
+    background-image: url('/img/fondohuman.jpg')
+}
+/* Collaboration */
+.collaboration-background{
+    background-image: url('/img/fondocolaboration.jpg')
+}
 
 
