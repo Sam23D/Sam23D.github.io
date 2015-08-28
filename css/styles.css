@@ -746,22 +746,53 @@ img {
 .project-background{
     background-image: url('/img/fondoproject.jpg')
 }
-
+#project-title{
+    font-size: 70px;
+}
 /* Parts */
 .parts-background{
     background-image: url('/img/fondoparts.jpg')
+}
+#parts-title{
+    font-size: 70px;
 }
 /* Modelin */
 .modeling-background{
     background-image: url('/img/fondomodeling.jpg')
 }
+#modeling-title{
+    font-size: 70px;
+}
 /* HumanPractices */
 .hpractices-background{
     background-image: url('/img/fondohuman.jpg')
+}
+#hpractices-title{
+    font-size: 70px;
 }
 /* Collaboration */
 .collaboration-background{
     background-image: url('/img/fondocolaboration.jpg')
 }
+.collaboration-container{
+    text-align: justify;
+}
+#collaboration-title{
+    font-size: 70px;
+}
+#collaboration-menu{
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    
+}
 
+#collaboration-menu li{
+    font-size: 25px;
+    list-style-type: none;
+    text-align: right;
+    font-weight: bold;  
+    line-height: 25px;
+    margin-top: .5em;
+}
 
