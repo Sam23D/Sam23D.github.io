@@ -363,6 +363,12 @@ img {
     padding: .5em;
     z-index: 1;
 }
+
+#float-menu ul{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
 #float-menu li{
     font-weight: bold;
     list-style-type: none;
