@@ -777,6 +777,17 @@ img {
 .collaboration-container{
     text-align: justify;
 }
+.collaborator{
+    width: 230px;
+
+}
+.collaborators{
+    height: auto;
+}
+.france-logo{
+    width: 120px;
+    margin-left: 6em;
+}
 #collaboration-title{
     font-size: 70px;
 }
