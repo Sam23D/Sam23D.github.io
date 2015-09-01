@@ -365,7 +365,7 @@ img {
 }
 
 #float-menu ul{
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 0;
 }
@@ -402,7 +402,9 @@ img {
 .block-menu h3{
     font-weight: bold;
 }
-
+.index-desc{
+    text-align:  justify;
+}
 /************************* TEAM STYLES ****************************/
 .team-background{
     background-image: url('../img/portraits/eqipomediocuerpo.jpg' )
@@ -761,6 +763,9 @@ img {
 }
 #parts-title{
     font-size: 70px;
+}
+.parts-description p{
+    text-align: justify;
 }
 /* Modelin */
 .modeling-background{
