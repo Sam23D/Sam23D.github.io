@@ -561,7 +561,7 @@ img {
 }
 #safety-quote{
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     margin-top: 120px;
 }
 #safety-menu{
@@ -805,7 +805,7 @@ img {
 #collaboration-menu{
     position: absolute;
     right: 0px;
-    top: 400px;
+    top: 300px;
     
 }
 
