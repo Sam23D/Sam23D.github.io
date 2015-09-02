@@ -789,7 +789,7 @@ img {
     text-align: justify;
 }
 .collaborator{
-    width: 230px;
+    width: 10em;
 
 }
 .collaborators{
@@ -805,7 +805,7 @@ img {
 #collaboration-menu{
     position: absolute;
     right: 0px;
-    top: 300px;
+    top: 250px;
     
 }
 
