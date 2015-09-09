@@ -555,19 +555,19 @@ img {
     background-image: url('../img/fondosafety.JPG' )
 }
 #safety-title{
-    margin-top: 25px;
+    margin-top: 2em;
     font-size: 70px;
     
 }
 #safety-quote{
     font-size: 20px;
     text-align: justify;
-    margin-top: 120px;
+    margin-top: 60px;
 }
 #safety-menu{
     position: absolute;
     right: 0px;
-    top: 300px;
+    top: 200px;
     
 }
 
@@ -722,7 +722,7 @@ img {
     margin: 2px;
 }
 #notebook-title{
-    margin-top: 90px;
+    margin-top: 2em;
     font-size: 70px;
     
 }
@@ -758,6 +758,7 @@ img {
     background-image: url('/img/fondoproject.jpg')
 }
 #project-title{
+    margin-top: 2em;
     font-size: 70px;
 }
 /* Parts */
@@ -765,6 +766,7 @@ img {
     background-image: url('/img/fondoparts.jpg')
 }
 #parts-title{
+    margin-top: 2em;
     font-size: 70px;
 }
 .parts-description p{
@@ -775,6 +777,7 @@ img {
     background-image: url('/img/fondomodeling.jpg')
 }
 #modeling-title{
+    margin-top: 2em;
     font-size: 70px;
 }
 /* HumanPractices */
@@ -782,6 +785,7 @@ img {
     background-image: url('/img/fondohuman.jpg')
 }
 #hpractices-title{
+    margin-top: 2em;
     font-size: 70px;
 }
 /* Collaboration */
@@ -803,12 +807,13 @@ img {
     margin-left: 6em;
 }
 #collaboration-title{
+    margin-top: 2em;
     font-size: 70px;
 }
 #collaboration-menu{
     position: absolute;
     right: 0px;
-    top: 250px;
+    top: 230px;
     
 }
 
