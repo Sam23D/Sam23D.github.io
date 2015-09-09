@@ -673,6 +673,9 @@ img {
     padding: 3 10em;
 }
 /* JOURNAL */
+.bacteria{
+    font-style: italic;
+}
 .journal-background{
      background-image: url('../img/notebook.JPG' )
 }
@@ -789,7 +792,7 @@ img {
     text-align: justify;
 }
 .collaborator{
-    width: 10em;
+    width: 12em;
 
 }
 .collaborators{
