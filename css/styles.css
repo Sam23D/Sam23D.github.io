@@ -772,6 +772,9 @@ img {
 .parts-description p{
     text-align: justify;
 }
+.biobrick-image{
+    width: 100%;
+}
 /* Modelin */
 .modeling-background{
     background-image: url('/img/fondomodeling.jpg')
