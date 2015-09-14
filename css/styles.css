@@ -788,6 +788,9 @@ img {
     margin-top: 2em;
     font-size: 70px;
 }
+.hPractices-content p{
+    text-align: justify;
+}
 /* Collaboration */
 .collaboration-background{
     background-image: url('/img/fondocolaboration.jpg')
