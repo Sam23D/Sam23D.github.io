@@ -1,0 +1,39 @@
+
+
+.pure-menu-link{
+  color:none;
+}
+
+.pure-menu-item :hover{
+  background-color:transparent;
+  text-decoration:underline;
+  
+}
+.tab-title{
+  font-size:1.6em;
+  font-weight:bold;
+  padding:1em .5em 0 .5em;
+}
+.tab-green{
+  color:green;
+}
+.tab-blue{
+  color:#00BFFF ;
+}
+.tab-yellow{
+  color:yellow;
+}
+.tab-red{
+  color:red;
+}
+.tab-purple{
+  color:purple;
+}
+.desc{
+  font-size: 1em;
+  margin: .5em 2em 1.5em 2em;
+}
+.pure-menu{
+  margin-bottom:2em;
+  border-bottom:4px solid white;
+}
