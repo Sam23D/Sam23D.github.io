@@ -20,13 +20,23 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	</head>
 	<body>
+	  <div id="float-menu">
+	    <ul>
+	      <li><a href="#ventaja-competitiva">Ventaja Competitiva</a></li>
+	      <li><a href="#filosofia">Filosofia</a></li>
+	      <li><a href="#mision">Mision y Vision</a></li>
+	      <li><a href="#valores">Valores</a></li>
+	      <li><a href="#servicios">Servicios</a></li>
+	      <li><a href="#clientes">Clientes</a></li>
+	      <li><a href="#contacto">Contacto</a></li>
+	    </ul>
+	  </div>
 		<div class="container">
 			<!-- Top Navigation -->
-			
-			<header>
-				<h1>Easy-Life</span></h1>	
-			</header>
-			<section class="col-2 ss-style-triangles">
+			<div id="bg">
+			  <img src="img/bg.jpg">
+			</div>
+			<section id="ventaja-competitiva" class="col-2 ss-style-triangles">
 				<div class="column text">
 					<h2>Ventaja Competitiva</h2>
 					<p>Contamos  con mas  de  25 a&ntilde;os de  experiencia en RH   y  servicio al cliente, adem&aacute;s  hemos incorporado: innovaci&oacute;n y tecnolog&iacute;a, lo que nos permite  formar  y enfocar  a nuestro   equipo  de  colaboradores   hacia  el logro  final deseado.</p>
@@ -35,7 +45,7 @@
 					<span class="icon icon-home"></span>
 				</div>
 			</section>
-			<section class="color">
+			<section id="filosofia" class="color">
 				<h2>Filsofia</h2>
 				<p>Nuestro principal compromiso es  contribuir a que  la convivencia  y experiencias diarias  de las familias de nuestros clientes  y  colaboradores  sean m&aacute;s  enriquecedoras, y as&iacute;­   aprovechn al m&aacute;ximo el  limitado tiempo con el que se  cuenta actualmente  en el seno del hogar  para  su convivencia </p>
 			  <p>
@@ -45,7 +55,8 @@
 			  La  actitud   de servicio,  la  preparaci&oacute;n   y  trabajo  en equipo  de nuestros  colaboradores  son la  base  con las que   garantizamos la  plena  satisfacci&oacute;n de nuestros  clientes:  FAMILIAS EasyLife
 			  </p>
 			</section>
-			<section class="col-2 ss-style-doublediagonal">
+			
+			<section id="mision" class="col-2 ss-style-doublediagonal">
 				<div class="column">
 					<span class="icon icon-library"></span>
 					<h2>Mision</h2>
@@ -57,9 +68,9 @@
           <p>Ser  la  mejor opci&oacute;n de servicios para el hogar en el norte del p&iacute;­s en el  2020,  al  ofrece a trav&eacute;s del compromiso  de  nuestra gente y  sistemas de  trabajo , los  servicios que  necesitan las  FAMILIAS EasyLife de manera  sencilla, &aacute;gil,  confiable e  innovadora a  un precio competitivo.</p>
 				</div>
 			</section>
-			<section class="col-3 ss-style-halfcircle">
+			
+			<section id="valores" class="col-3 ss-style-halfcircle">
 				<h2>Valores</h2>
-				<span class="icon icon-stack" ></span>
 				<div class="column ">
 					<h3>Integridad</h3>
 					<p>Actuamos siempre con la verdad. Somos coherentes en lo que decimos y hacemos.</p>
@@ -82,7 +93,8 @@
 				</div>
 				
 			</section>
-			<section class="color ss-style-bigtriangle" ng-app="">
+			
+			<section id="servicios" class="color ss-style-bigtriangle" ng-app="">
 				<h2 id="tabs">Nuestros Servicios</h2>
 				<div class="pure-g">
     			<div class="pure-u-1">
@@ -133,10 +145,12 @@ desarrollar estas actividades  de manera más  ágil y  eficaz</p>
 				
 				
 			</section>
+			
 			<svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
 				<path d="M0 0 L50 100 L100 0 Z" />
 			</svg>
-			<section class="col-3">
+			
+			<section id="clientes" class="col-3">
 				<h2>Nuestros Clientes</h2>
 				<div class="column">
 	      <p>Copamex</p>
@@ -200,7 +214,7 @@ desarrollar estas actividades  de manera más  ágil y  eficaz</p>
 						 M95 100 Q 100 15 105 100 Z">
 				</path>
 			</svg>
-			<section class="related">
+			<section id="contacto" class="related">
 				<h2>Contacto</h2>
 				
 				<form class="pure-form pure-form-stacked">

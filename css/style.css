@@ -37,3 +37,72 @@
   margin-bottom:2em;
   border-bottom:4px solid white;
 }
+.bg-image{
+  position:absolute;
+  z-index: -1;
+  right:0px;
+}
+p{
+  z-index:100;
+}
+#land-page img{
+  z-index:500 ;
+}
+#bg{
+  z-index:400;
+  width:100%;
+  height:100%;
+}
+#bg img{
+  width:100%;
+}
+#logo{
+}
+#filosofia h2{
+  color:#2980b9;
+}
+#filosofia{
+  background-color:white;
+}
+#valores{
+  background-color:white;
+  padding-top:6em;
+  padding-bottom:6em;
+}
+#valores h2{
+  margin-bottom:2em;
+}
+#valores h3{
+  padding-bottom:1em;
+  border-bottom:1px #eee solid;
+}
+#valores h2, h3{
+  color:#2980b9;
+}
+#float-menu{
+  position:fixed;
+  right:-100px;
+  z-index:1000;
+  transition-duration: .5s;
+  top:25%;
+}
+#float-menu:hover{
+  right:0px;
+}
+
+#float-menu ul li{
+  list-style-type:none;
+  font-weight:bold;
+  margin-top:.5em;
+  background-color:#34495e;
+  display:block;
+  text-align:center;
+  
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+}
+#float-menu ul li a{
+  padding:.5em 1em .5em 2em;
+  display:block;
+}
+
