@@ -60,6 +60,8 @@ p{
 }
 #filosofia h2{
   color:#2980b9;
+  border-bottom:1px solid #eee;
+  padding-bottom:1em;
 }
 #filosofia{
   background-color:white;
@@ -94,12 +96,18 @@ p{
   list-style-type:none;
   font-weight:bold;
   margin-top:.5em;
-  background-color:#34495e;
+  background-color:#2980b9;
   display:block;
   text-align:center;
   
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+  
   border-top-left-radius:30px;
   border-bottom-left-radius:30px;
+}
+#float-menu ul li:hover{
+  box-shadow: 0 0 10px 3px rgba(0,0,0,.35);
+  
 }
 #float-menu ul li a{
   padding:.5em 1em .5em 2em;
