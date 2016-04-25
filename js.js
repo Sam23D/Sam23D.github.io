@@ -93,7 +93,10 @@ var drinkingDares = [
   "Take a shot, then spin around for 15 seconds, after that try to run to the door",
   "Moan as loud as you can",
   "Take a shot, balance a sweep for 15 seconds, if it falls take another shot",
-  "Do a lap dance to the person on your right"
+  "Do a lap dance to the person on your right",
+  "Choose a drinking mate and drink",
+  "Take a shot and compliment the person to your right"
+
 ]
 var drinkingQuotes = [
   "HAKUNA MA'VODKA",
@@ -155,7 +158,6 @@ var questions = [
   "Never have I ever spent my parent’s money on alcohol",
   "How many freshmen/virgins have you slept with?",
   "Never have I ever lied to my parents about being in classes, and where drinking instead?",
-  "Never have I ever taken money from your roommate",
   "What is the most annoying thing your roommate does?",
   "Have you been in any fights while in school?",
   "Never have I ever done a sex train",
@@ -204,7 +206,7 @@ var questions = [
   "How ofter do you masturbate?",
   "Never have I ever gone without wearing underwear",
   "Where’s the craziest place you’ve had sex?",
-  "Do you have any wild fantasies?",
+  "Do you have any wild fantasies? say one",
   "Where is the most public place you have masturbated?",
   "What sounds do you make during sex?",
   "Do you use condoms when performing oral sex?",
