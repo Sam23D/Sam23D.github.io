@@ -21,6 +21,9 @@ body {
   position: absolute;;
   right: 10px
 }
+#menu a{
+  margin: 0 1em
+}
 #screen{
   height: 100%;
   }
