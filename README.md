@@ -1,15 +1,12 @@
-Section Separator Styles
-=========
+### Truth or drink
 
-A collection of separator styles for horizontally dividing sections on a website. The dividers are created using several techniques, including styling pseudo-elements, using gradients and inserting SVG graphics with responsiveness in mind.
+#### Rules
+-Each player takes a turn
+-Each player has to read the question out loud
+-If it's direct question, you can skip it but need to take a shot
+-If "never have i ever" and any player has done it, drink
+-Always say the story behind "never have i ever"
+-If a quote comes up, everyone takes a drink
+-If a dare comes up, the player has to do it
 
-[Article on Codrops](http://tympanus.net/codrops/?p=16581)
-
-[Demo](http://tympanus.net/Development/SectionSeparators/)
-
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
-
-Read more here: [License](http://tympanus.net/codrops/licensing/)
-
-
-[© Codrops 2013](http://www.codrops.com)
+##### Let the games begin
