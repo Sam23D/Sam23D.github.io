@@ -1,0 +1,100 @@
+html{
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 2px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+}
+
+/*  IDS */
+#row {
+  height: 100%;
+  margin: 0;
+}
+#menu{
+  text-align: right;
+  position: absolute;;
+  right: 10px
+}
+#screen{
+  height: 100%;
+  }
+#cQuestion{
+  border: solid 4px white;
+  width: 100%;
+
+  padding: 3em 1em;
+  margin: 0 2em;
+  text-align: center;
+}
+#question{
+
+}
+#rules{
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  border: solid 4px white;
+  padding: 1em 1em;
+  margin: 0 2em;
+}
+#rules a{
+  color: white
+}
+
+#settings{
+  color: white;
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+}
+
+#settings a{
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  padding: 5px 15px;
+}
+
+
+#startDrinking{
+  margin-top: 2em;
+  font-size: 35px;
+  font-weight: bold;
+
+
+}
+#remaining{
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  color: white;
+  color: #222;
+}
+
+/* CLASES */
+.rule{
+  font-size: 22px;
+  font-weight: normal;
+  color: #ccc;
+}
+.title{
+  font-size: 40px;
+  border-bottom: 1px solid white;
+
+}
+.strike{
+  text-decoration: line-through;
+}
+.activeDare, .activeQuote{
+  border: 2px solid white;
+  color: black;
+  font-weight: bold;
+
+}
