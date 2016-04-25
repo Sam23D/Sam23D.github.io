@@ -9,4 +9,4 @@
 - If a quote comes up, everyone takes a drink
 - If a dare comes up, the player has to do it
 
-##### Let the games begin [(demo)](https://www.google.com)
+##### Let the games begin [(demo)](https://sam23d.github.io)
