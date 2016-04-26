@@ -85,18 +85,25 @@ var refreshQuestions = function(){
 //models
 var drinkingDares = [
   "Drink a body shot from the person on your right",
-  "Double shot!",
-  "TRITRITRIPLESHOOOOOT",
+  "Double shot",
+  "TRIPLESHOOOOOT",
   "Take one clothe of, sexy",
-  "Take a shower",
+  "Take a shower, on underware",
   "Take a shot and do a cartwheel",
-  "Take a shot, then spin around for 15 seconds, after that try to run to the door",
+  "Take a shot, spin for 15 seconds, and run to the door and back",
   "Moan as loud as you can",
   "Take a shot, balance a sweep for 15 seconds, if it falls take another shot",
   "Do a lap dance to the person on your right",
-  "Choose a drinking mate and drink",
-  "Take a shot and compliment the person to your right"
-
+  "Choose a drinking mate ( wheneer you drink he drinks ) and drink",
+  "Take a shot and compliment the person to your right",
+  "Take a shot, do an impersonation of the person on your right ",
+  "Drink and wear your clothes back to front",
+  "Take a shot and imitate a celebrity choosen by the group for 30 seconds",
+  "Swap a pice of cloth with the person on your right",
+  "Sit on the lap of the person on your right for 5 turns",
+  "Tie 2 beers to your hand, take them off when you finish both of them",
+  "Take a shot... using only your mouth",
+  "Take a body shot, and a slap from a person you chose",
 ]
 var drinkingQuotes = [
   "HAKUNA MA'VODKA",
@@ -212,7 +219,9 @@ var questions = [
   "Do you use condoms when performing oral sex?",
   "Never have I ever been sexually attracted to a someone of the same sex",
   "How man times a week you think is good to have sex? Why?",
-  "Never have I ever tried whipped cream during sex"
+  "Never have I ever tried whipped cream during sex",
+  "Who here would you most like to have sex with?",
+
 ]
 
 //we clone the element of questions into another variable incase we want to restart the questions
