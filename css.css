@@ -339,17 +339,25 @@ ul, ol { list-style: none; }
   transition: color 200ms var(--ease-out);
 }
 .stack__item:hover { color: var(--ink); }
-.stack__item img {
+.stack__item img,
+.stack__item iconify-icon {
   width: 18px;
   height: 18px;
+  font-size: 18px;
   object-fit: contain;
   filter: grayscale(1) contrast(0.9);
   opacity: 0.68;
   transition: filter 250ms var(--ease-out), opacity 250ms var(--ease-out);
 }
-.stack__item:hover img {
+.stack__item:hover img,
+.stack__item:hover iconify-icon {
   filter: grayscale(0) contrast(1);
   opacity: 1;
+}
+.stack__item iconify-icon {
+  display: inline-block;
+  flex-shrink: 0;
+  color: var(--ink-soft);
 }
 
 /* ---- Experience ------------------------------------------------- */
